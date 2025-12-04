@@ -10,6 +10,6 @@ if (POLICY CMP0141)
 endif()
 
 project ("breakout")
+add_subdirectory ("Breakout")
 
-# Include sub-projects.
-add_subdirectory ("breakout")
+add_subdirectory("vendor/raylib")

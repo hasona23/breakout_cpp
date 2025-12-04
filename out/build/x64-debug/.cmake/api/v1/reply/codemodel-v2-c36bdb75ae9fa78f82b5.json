@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "Breakout",
+					"jsonFile" : "directory-Breakout-Debug-e9454940d0d564da2bc1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Breakout",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "vendor/raylib",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-vendor.raylib-Debug-01e72cf24df344d22ed4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "vendor/raylib",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "vendor/raylib/raylib",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-vendor.raylib.raylib-Debug-7c88cee1ac471e7a2f19.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "vendor/raylib/src",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "vendor/raylib/raylib/external/glfw",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-vendor.raylib.raylib.external.glfw-Debug-f85b802af0b317dd992b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "vendor/raylib/src/external/glfw"
+				},
+				{
+					"build" : "vendor/raylib/raylib/external/glfw/src",
+					"jsonFile" : "directory-vendor.raylib.raylib.external.glfw.src-Debug-0999f96d153c479fdda6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.4"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 2,
+					"source" : "vendor/raylib/src/external/glfw/src",
+					"targetIndexes" : 
+					[
+						1,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "breakout",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						3
+					],
+					"name" : "raylib",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4,
+						5
+					],
+					"name" : "GLFW",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "breakout::@03cf7018cdfc1831d0f7",
+					"jsonFile" : "target-breakout-Debug-c3cb3d8b407e1724e2b0.json",
+					"name" : "breakout",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glfw::@878e4ea062a7878da03b",
+					"jsonFile" : "target-glfw-Debug-db8cc9e752f724fa7f3e.json",
+					"name" : "glfw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "raylib::@83a3c8edfb4834ace9c0",
+					"jsonFile" : "target-raylib-Debug-01badc20e7158caf5737.json",
+					"name" : "raylib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@64d7e1245bd1accb141f",
+					"jsonFile" : "target-uninstall-Debug-45b8f42b75feaad55bc7.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "update_mappings::@878e4ea062a7878da03b",
+					"jsonFile" : "target-update_mappings-Debug-39a18b01d4fc170f9e93.json",
+					"name" : "update_mappings",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/sona2/OneDrive/Desktop/Games/breakout/out/build/x64-debug",
+		"source" : "C:/Users/sona2/OneDrive/Desktop/Games/breakout"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
