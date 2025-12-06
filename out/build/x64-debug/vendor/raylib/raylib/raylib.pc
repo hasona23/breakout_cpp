@@ -1,4 +1,4 @@
-prefix=C:/Users/sona2/OneDrive/Desktop/Games/breakout/out/install/x64-debug
+prefix=C:/Users/sona2/OneDrive/Desktop/Games/game_cpp/out/install/x64-debug
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

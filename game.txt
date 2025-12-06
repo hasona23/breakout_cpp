@@ -1,0 +1,110 @@
+Game Idea:
+
+Cyber Pit:
+
+You are a novice hunter who was trapped in the Cyber Pit Arena 
+you fight hordes of enemies of various types like shooters and bombers and melee attackers.
+you will fight them using your CYBER BLADE which you un-cover its secret powers
+
+Visual Style:
+- Neon/Glow for cyber look
+- Particles for effects
+- Minimal UI
+
+Core Mechanics:
+
+[ ] Movement
+	[X] WASD Movement
+	[ ] Dash Ability
+
+[ ] Arena
+	[ ] Loading
+	[ ] Rendering
+	[ ] Boundaries
+
+[ ] Collisions
+
+[ ] Melee Attacks
+	[ ] Basic Attack
+	[ ] Range Check
+
+[ ] Basic Enemy AI 
+	[ ] Follow Player
+	[ ] Attack Player
+
+[ ] Wave System
+	[ ] Wave Spawning
+	[ ] Wave Progression
+
+[ ] Health System
+	[ ] Player Health
+	[ ] Enemy Health
+
+[ ] Score System
+	[ ] Scoring
+	[ ] High Scores
+	[ ] Multiplier
+
+[ ] Power-up System
+	[ ] Power-up Spawning
+	[ ] Power-up Effects
+
+[ ] Screen Shake
+
+[ ] Particle System
+	[ ] Spawn Particles
+	[ ] Particle Update
+	[ ] Particle Rendering
+
+[ ] Sound Effect System
+	[ ] Sound Effect Loading
+	[ ] Sound Effect Playing
+
+Game Mechanics:
+
+[ ] Cyber Blade
+	[ ] Basic Attack
+	[ ] Charged Attack
+	[ ] Special Ability
+
+[ ] Enemy AI
+	[ ] Pathfinding
+	[ ] Attack Patterns
+	[ ] Smart Movement
+	[ ] Dodge Player Attacks
+
+[ ] Samurai Enemy
+	[ ] Melee Attacks
+	[ ] Blocking
+	[ ] Slash Attack
+
+[ ] Shooter Enemies
+	[ ] Ranged Attacks
+	[ ] Change Location
+	[ ] Super Shot
+
+[ ] Bomb Enemies
+	[ ] Explode on Death
+	[ ] Chase Player
+
+[ ] Boss
+	[ ] Unique Attacks
+	[ ] Multiple Phases
+	[ ] Minion Spawning
+
+
+Finish:
+[ ] Main Menu
+[ ] Game Over Screen
+[ ] Pause Menu
+[ ] Particle Effects
+[ ] Neon Glow Effects
+[ ] Sound Effects
+[ ] Background Music	d
+[ ] Power-up Effects
+[ ] Victory Screen
+
+
+
+
+

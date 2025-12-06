@@ -1,8 +1,8 @@
-if(NOT EXISTS "C:/Users/sona2/OneDrive/Desktop/Games/breakout/out/build/x64-debug/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: C:/Users/sona2/OneDrive/Desktop/Games/breakout/out/build/x64-debug/install_manifest.txt")
+if(NOT EXISTS "C:/Users/sona2/OneDrive/Desktop/Games/game_cpp/out/build/x64-debug/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: C:/Users/sona2/OneDrive/Desktop/Games/game_cpp/out/build/x64-debug/install_manifest.txt")
 endif()
 
-file(READ "C:/Users/sona2/OneDrive/Desktop/Games/breakout/out/build/x64-debug/install_manifest.txt" files)
+file(READ "C:/Users/sona2/OneDrive/Desktop/Games/game_cpp/out/build/x64-debug/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")
